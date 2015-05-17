@@ -148,7 +148,7 @@ class core():
 
 	BLOG_FEED_URL = 'http://tweeria.wordpress.com/feed/'
 
-	MAX_TIME_TO_SLEEP = 604800
+	MAX_TIME_TO_SLEEP = 7776000
 
 	FINISHED_EVENTS_LIFETIME = 1209600
 
@@ -410,7 +410,7 @@ class balance():
 	QUEST_LEN = 86400
 
 	# craft items
-	ORE_COST_PER_ITEM = 1
+	ORE_COST_PER_ITEM = 0
 
 	MAX_STATS_ITEM_CREATE = {
 		'25': 75,
